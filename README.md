@@ -1,28 +1,24 @@
-MolSSI ACT-CMS Lesson Cookiecutter
-==================================
+Lesson/Module Title
+===================
 
-Template repository to use as a starting place for developing a new
-lesson!
+Write a short description (2-3 sentences) of your lesson here. The `main`
+branch of your lesson repository is the most public-facing branch, which will
+primarily be accessed by prospective adopting instructors as they explore the
+open educational resources (OER) available on the ACT-CMS portal. Minimally,
+you should address the lesson's purpose, intended audience (course & student
+level), and time required.
 
-## Instructions for ACT-CMS Fellows
+## Lesson/Module Contents
 
-> [!NOTE]
-> Before deploying your materials, the main branch of this repo will be a ghost
-> town...this is by design. Navigate to one of the other branches to actually
-> engage with the lesson materials under development and the contributor guide!
+Provide a brief overview of the structure of your module or lesson as an
+enumerated list below:
 
-> [!IMPORTANT]
-> All development information (templates, recipes, etc.) are on the `dev` branch.
-> Make sure you checkout that branch to do your actual lesson development!
-
-> [!TIP]
-> All contribution guidelines & FAQs etc. regarding the lesson flow are discussed
-> on the `contrib` branch, so either view that branch on GitHub or checkout that
-> branch for details!
-
-> [!WARNING]
-> After merging your lesson from the `dev` branch into `main`, make sure you delete
-> all instructor versions/notes/materials and commit the deletions to the main branch
-> ***before you push up to `origin`***. Otherwise, the answers will be deployed to
-> ChemCompute right alongside the student versions!
+1. Title of first lesson in module
+    * Directory: `01_first-lesson`
+    * Description: Extremely brief description of lesson content
+    * Time: 2-3 hours
+2. Title of second lesson in module (if present)
+    * Directory: `02_second-lesson`
+    * Description: Extremely brief description of lesson content
+    * Time: 2-3 hours
 
